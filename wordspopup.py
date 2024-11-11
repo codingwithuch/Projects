@@ -34,7 +34,7 @@ def get_five_letter_words():
 
 
 
-    #Using chat_gpt list to gather more words to add to list
+    #Using chat_gpt list to gather more words to add as well as editing the list
     five_letter_words = set(five_letter_words)
     five_letter_words = list(five_letter_words)
     five_letter_words.sort()
@@ -141,6 +141,7 @@ def get_five_letter_words():
 
 
 
+        #This will tell us how many points we will get
         for j in range(len(guess1)):
 
             u1 = convtoonesandzeros(guess1,ans_word,ans_word[j])
