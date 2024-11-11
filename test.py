@@ -1,3 +1,5 @@
+#Takes in 2 scoring matrixes and figures out how many points to give the player. Qual determines whether the letters are green or yellow, and Quant helps track how many points to give out per letter. 
+
 def pointdist(list1,list2):
     qual = [0,0,0,0,0]
     code = 0
