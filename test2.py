@@ -1,4 +1,4 @@
-
+#Inputs 2 words and a letter of a word and makes a scoring matrix with 0 where no match and 1 with match
 
 
 def convtoonesandzeros(wordgen,wordguess,letter):
