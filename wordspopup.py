@@ -625,7 +625,7 @@ def get_five_letter_words():
         input()
 
         #ask player if they want to play again
-        print("press the x on the top corner if you want to play again")
+        print("press the x on the top corner if you want to stop playing")
         pg = input()
         if pg != 1:
             play_again = 1
